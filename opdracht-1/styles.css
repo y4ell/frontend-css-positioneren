@@ -1,8 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins&display=swap');
+
+lichtgrijs #F7F7F7 en donkergrijs #d3d3d3
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
 .recipe-card {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
     /* Dit element heeft een vaste breedte van 350 pixels */
     width: 350px;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.30);
+    overflow: hidden;
+    position: relative;
 }
 
-/* - Vul dit document aan met jouw eigen css! - */
+#image-pastasalade {
+    width: 100%;
+}
+
+#image-favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+}
+
+
+.recipe-details {
+    background-color: #F7F7F7;
+    margin-top: -10px;
+    padding-block: 5px;
+}
+
+.recipe-details-items {
+    margin-inline: 8px;
+    font-size: 14px;
+}
+
+.symbol {
+    height: 12px;
+    margin-inline: 5px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
