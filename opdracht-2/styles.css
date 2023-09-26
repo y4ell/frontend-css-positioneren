@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins&display=swap');
+
+:root {
+    color: #DE6127;
+    color: #e8e8e8;
+    color: #737373;
+    color: #faa0c7;
+    color: #272729;
+    color: #928471;
+    color: #c2c2b4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #272729;
+}
+
+
 .product {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
@@ -6,3 +28,75 @@
 }
 
 /* - Vul dit document aan met jouw eigen css! - */
+
+
+
+.product-image-wrapper {
+    position: relative;
+}
+
+.product-photo {
+    width: 100%;
+}
+
+.favorite-symbol {
+    position: absolute;
+    height: 15px;
+    right: 10px;
+    bottom: 15px;
+}
+
+.new-sticker {
+    background-color: #e8e8e8;
+    color: #DE6127;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    text-align: center;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 60px;
+    left: -70px;
+}
+
+
+.conscious {
+    color: #737373;
+    font-size: 12px;
+    margin: 1px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 1px;
+}
+
+.price {
+    margin: 1px;
+}
+
+.product-color-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.product-color-dot + .product-color-dot {
+    margin-left: 2px;
+}
+
+.dot-pink {
+    background-color: #faa0c7;
+}
+
+.dot-black {
+    background-color: #272729;
+}
+
+.dot-taupe {
+    background-color: #928471;
+}
+
+.dot-beige {
+    background-color: #c2c2b4;
+}
